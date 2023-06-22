@@ -1,0 +1,14 @@
+cabecalho{
+    backgroud-color: gray;
+    width:auto;
+    heidth:auto;
+    haight:150px;
+}
+conteudo{
+    backgroud=color:red;
+    widht:auto; height:700px;
+}
+rodape{
+    backgroud-color:gray;
+    width:auto; height:150px;
+}
