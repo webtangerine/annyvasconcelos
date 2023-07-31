@@ -1,0 +1,11 @@
+body{background-color: pink;
+
+}
+
+legend{
+    font-size: 50px;
+}
+fieldset{
+    border-radius: 50px;
+    border: 20px;
+}
