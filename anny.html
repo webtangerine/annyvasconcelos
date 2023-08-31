@@ -1,77 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Contato</title>
-    <link rel="stylesheet" href="anny12.jpg">
-    <link href="anny.css" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <img id="logo" src="anny12.jpg" width="200px" height="200px">
-        <h1 class="titulo-principal">light dream</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html">Produtos</a></li>
-          <li><a href="index.html">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"> 
+        <title> Tabela de Média</title>
+        <link rel="stylesheet" type="text/css" href="anny.css">
+    </head>
+   <body>
+    <table border="2" align="center" bgcolor="#d87093";
+        <tr>
+            <td>Nome</td>
+            <td>1° T</td>
+            <td>2° T</td>
+            <td>3° T</td>
+            <td> Media Final</td>
+        </tr>
+        <tr>
+            <td> Ana</td>
+            <td> 60</td>
+            <td> 60</td>
+            <td> 60</td>
+            <td> 180</td>
+        </tr>
+        <tr>
+            <td> Carlos</td>
+            <td> 80</td>
+            <td> 80</td>
+            <td> 90</td>
+            <td> 250</td>
+        </tr>
+        <tr>
+            <td> Daniel</td>
+            <td> 100</td>
+            <td> 100</td>
+            <td> 95</td>
+            <td> 295</td>
+        </tr>
+        <tr>
+            <td> Eva</td>
+            <td> 100</td>
+            <td> 100</td>
+            <td> 75</td>
+            <td> 275</td>
+        </tr>
+        <tr> <td colspan=5 align="center">2023</td></tr>
+        <footer> Anny</footer>
+    </table>
+            
 
-    <main>
-        <form>
-            <label for="nomesobrenome">Nome e sobrenome:</label>
-            <input type="text" name="nome" id="nomesobrenome" class="input-padrao" placeholder="Seu nome e sobrenome" required >
-            <br>
-            <br>
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" class="input-padrao" placeholder="seuemail@dominio.com" required >
-            <br>
-            <br>
-            <label for="telefone">Telefone:</label>
-            <input type="tel" name="telefone" id="telefone" class="input-padrao" placeholder="(XX) XXXX-XXXX" required >
-            <br>
-            <br>
-            <label for="mensagem">Mensagem:</label>
-            <textarea cols="70" rows="10" id="mensagem" placeholder="Digite seu texto aqui!" required ></textarea>
-
-            <section>
-                <p>Entre em contato conosco</p>
-
-                <label for="radio-email"><input type="radio" name="Contato" value="email" id="radio-email">Email</label>
-                <br>
-                <br>
-                <label for="radio-telefone"><input type="radio" name="Contato" value="telefone" id="radio-telefone">Telefone</label>
-                <br>
-                <br>
-                <label for="radio-whatsapp"><input type="radio" name="Contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
-                <br>
-                <br>
-            </section>
-
-            <section>
-                <p>Qual horario prefere ser atendido?</p>
-                <select>
-                    <option>Manhã</option>
-                    <option>Tarde</option>
-                    <option>Noite</option>
-                </select>
-            </section>
-            <br>
-            <br>
-            <label class="checkbox">
-            <input type="checkbox">Gostaria de receber novidades por e-mail?    
-            </label>
-
-            <input type="submit" value="Enviar formulário" class="enviar">
-        </form>
-    </main>
-
-    <footer>
-        <img id="logo" src="yandh.png">
-        <p class="copyright">&copy; Copyright -- Anny Vasconcelos</p>
-    </footer>
-
-</body>
-</html>  
