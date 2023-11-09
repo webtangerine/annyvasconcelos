@@ -1,0 +1,57 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+body, h1, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para o corpo da página */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Estilo para o cabeçalho */
+header {
+  background-color: #ff99cc;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilo para a barra de navegação */
+nav {
+  background-color: #ff66b2;
+  padding: 10px;
+}
+
+/* Estilo para links de navegação */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Estilo para a seção de produtos */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+/* Estilo para cada item de produto */
+.product {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+/* Estilo para o rodapé */
+footer {
+  background-color: #ff99cc;
+  padding: 10px;
+  text-align: center;
+}
